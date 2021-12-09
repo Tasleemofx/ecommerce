@@ -62,6 +62,7 @@
     margin: 0.7em;
     width: 70vw;
     border-radius: 1em;
+    cursor: pointer;
 }
 @media screen and (min-width: 650px){
     .description{
