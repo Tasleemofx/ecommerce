@@ -19,6 +19,7 @@
     height: 60%;
     margin: 1em;
     align-content: center;
+    border-radius: 1em;
 }
 @media screen and (min-width: 600px){
     .tops{
@@ -26,6 +27,23 @@
     }
     
 .left{
+    top: 30%;
+    left:2%;
+}
+.right{
+    top: 30%;
+    left: 37%;
+}
+    .main-img{
+        width: 40vw;
+        height: 40vh;
+    }
+}
+@media screen and (min-width: 1025px){
+    .main-img{
+        height: 60vh;
+    }
+    .left{
     top: 45%;
     left:2%;
 }
@@ -33,9 +51,4 @@
     top: 45%;
     left: 37%;
 }
-    .main-img{
-        width: 40vw;
-        border-radius: 1em;
-        height: 60vh;
-    }
 }
