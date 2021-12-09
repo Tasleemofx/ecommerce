@@ -54,8 +54,12 @@ nav ul li{
     padding: 0.6em;
     margin: auto 1em;
 }
-@media screen and (min-width: 650px) {
-    .burger{
+@media screen and (min-width: 600px) {
+     nav ul li{ 
+    padding: 0.3em;
+    margin: auto 0.5em;
+}
+.burger{
         display: none;
     }
     .nav-mobile{
@@ -64,7 +68,14 @@ nav ul li{
     .nav-large{
         display: block;
     }
+   
     .nav-large ul li{
         display: inline-block;
     }
+}
+@media screen and (min-width: 1000px) {
+    nav ul li{ 
+    padding: 0.6em;
+    margin: auto 1em;
+}
 }
