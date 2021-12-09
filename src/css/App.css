@@ -1,0 +1,41 @@
+.arrow{
+    color: black;
+    position: absolute;
+    font-size: 2em;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+}
+.left{
+    top: 35%;
+    left:5%;
+}
+.right{
+    top: 35%;
+    right: 20%;
+}
+.main-img{
+    width: 80%;
+    height: 60%;
+    margin: 1em;
+    align-content: center;
+}
+@media screen and (min-width: 600px){
+    .tops{
+        display:flex;
+    }
+    
+.left{
+    top: 45%;
+    left:2%;
+}
+.right{
+    top: 45%;
+    left: 37%;
+}
+    .main-img{
+        width: 40vw;
+        border-radius: 1em;
+        height: 60vh;
+    }
+}
